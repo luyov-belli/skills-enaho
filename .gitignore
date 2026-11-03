@@ -1,0 +1,11 @@
+# Microdatos del INEI: cada quien los baja (ver README)
+datos/
+
+# La base limpia se regenera con limpiar.py; validacion.txt sí se sube
+salidas/*.parquet
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json

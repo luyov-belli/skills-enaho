@@ -1,0 +1,11 @@
+[project]
+name = "enaho-skills"
+version = "0.1.0"
+description = "Tres skills de Claude Code que limpian, grafican y mapean la ENAHO 2024 del INEI"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas>=1.2.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "pyarrow>=26.0.1",
+]

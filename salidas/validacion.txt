@@ -1,0 +1,28 @@
+VALIDACIÓN ENAHO 2024 (código INEI 966)
+Generado: 2026-11-03 13:50
+RESULTADO: OK
+
+Chequeos
+  [OK] Llaves de persona únicas: 0 duplicadas
+  [OK] Llaves de hogar únicas en la sumaria: 0 duplicadas
+  [OK] La unión no perdió ni duplicó filas: 108,664 filas en la base, 108,664 residentes
+  [OK] Toda persona encontró su hogar: 0 sin hogar
+  [OK] Ubigeo de 6 dígitos con ceros: ejemplo: 150509
+  [OK] 25 departamentos con nombre: 25 departamentos
+  [OK] Hogares en la sumaria: 33,691 (INEI: 33,691)
+  [OK] Filas del módulo 02: 117,721 (esperado: 117,721)
+  [OK] Residentes habituales: 108,664 (esperado: 108,664)
+  [OK] Pobreza = cifra oficial (sumaria, factor07 × mieperho): 27.58 % (INEI: 27.6 %)
+  [OK] Pobreza = cifra oficial (personas, facpob07): 27.53 % (INEI: 27.6 %)
+  [OK] Pobreza extrema = cifra oficial (sumaria): 5.50 % (INEI: 5.5 %)
+
+Cifras
+  Pobreza (personas, facpob07):           27.53 %
+  Pobreza (sumaria, factor07 × mieperho):  27.58 %
+  Pobreza extrema (personas, facpob07):    5.50 %
+  Pobreza extrema (sumaria):               5.50 %
+  Población expandida (facpob07):        34,147,766
+  Hogares: 33,691 · Personas residentes: 108,664 de 117,721 filas
+
+Base: salidas/personas_2024.parquet
+Una fila por persona residente habitual; 26 columnas. Pondera con facpob07.
